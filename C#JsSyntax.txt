@@ -1,0 +1,7 @@
+C# and JavaScript are actually pretty different, not only in the way you "speak" it, but in the way
+that things work throughout the system. In JavaScript when you want to write in the "class", you 
+just write in the script. Writing in the script automatically means youre writting in the class. However,
+in C# you have to declare a class in order to make one. Another thing that is a default difference is that
+anything you type in JavaScript is defaulted as public, while in C# the code is defaulted as private and
+must be declared as public to become visable. Other variations are orders of objects called and names of
+things being declared.
