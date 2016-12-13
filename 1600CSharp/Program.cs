@@ -51,13 +51,20 @@ switch(i)
         {
             case 0:
                 //pick a direction to walk in
+                
             break;
 
             case 1:
-                //Enter battleScene
+                //Enter random occurences
                 if (60%)
                 {
-                    
+                    //Enter BattleScene
+                    Console.Clear();
+                    Console.WriteLine("A battle has begun, what would you like to do?")
+                    Console.WriteLine("Attack")
+                    Console.WriteLine("Defend")
+                    Console.WriteLine("Special")
+                    Console.WriteLine("Run")
                 }
                 if (true)
                 {
@@ -74,12 +81,3 @@ switch(i)
                 Console.WriteLine("Your path is clear");
             break;
         }
-
-//Battle System
-
-Console.Clear();
-Console.WriteLine("A battle has begun.")
-Console.WriteLine("What would you like to do?")
-
-class BattleSystem
-
