@@ -5,7 +5,7 @@ public class Program
     {
         //Int
         int correct = 0;
-    int CharacterClass
+        int CharacterClass
 
 //class select
        do {
@@ -56,7 +56,7 @@ switch(i)
 
             case 1:
                 //Enter random occurences
-                if (60%)
+                if (RandomOccur =< 30)
                 {
                     //Enter BattleScene
                     Console.Clear();
@@ -66,7 +66,7 @@ switch(i)
                     Console.WriteLine("Special")
                     Console.WriteLine("Run")
                 }
-                if (true)
+                if (RandomOccur =>)
                 {
                     
                 }
