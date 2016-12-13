@@ -44,9 +44,42 @@ if (class == "Lancer")
     }
 }
 
+//Character walk
+//move a direction and random instince occurs
+
+switch(i)
+        {
+            case 0:
+                //pick a direction to walk in
+            break;
+
+            case 1:
+                //Enter battleScene
+                if (60%)
+                {
+                    
+                }
+                if (true)
+                {
+                    
+                }
+                else
+                {
+                    
+                }  
+            break;
+
+
+            default:
+                Console.WriteLine("Your path is clear");
+            break;
+        }
+
 //Battle System
 
-Console.Clear ();
-Console.WriteLine ("A battle has begun.")
-Console.WriteLine ("What would you like to do?")
+Console.Clear();
+Console.WriteLine("A battle has begun.")
+Console.WriteLine("What would you like to do?")
+
+class BattleSystem
 

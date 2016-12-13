@@ -1,4 +1,7 @@
+using System;
 public class MainClasses
+
+int 
 
 int CharacterClass
     health== 50
