@@ -1,11 +1,14 @@
 ﻿using System;
-public class Program
+using static System.Console;
+
+static public class Program
 {
-    public static void Main(string[]) args)
+    static public void Main()
     {
         //Int
         int correct = 0;
         int CharacterClass
+    
 
 //class select
        do {
