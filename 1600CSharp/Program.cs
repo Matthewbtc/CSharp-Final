@@ -28,19 +28,19 @@ static public class Program
 if (class == "Warrior")
 {
     health== 50;
-    attack== 50%;
+    attack== 50;
     special == string ("Shield Bash");
 }
 if (class == "Mage")
 {
     health== 30;
-    attack== 70%;
+    attack== 70;
     special == string ("Dual Cast");
 }
 if (class == "Lancer")
 {
     health== 20;
-    attack== 100%;
+    attack== 100;
     special == string ("Jump");
 }
 
@@ -62,7 +62,7 @@ switch(i)
 
             case 1:
                 //Enter random occurences
-                if (RandomOccur =< 30)
+                if (RandomOccur )
                 {
                     //Enter BattleScene
                     Console.Clear();

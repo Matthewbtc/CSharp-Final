@@ -1,8 +1,16 @@
 using System;
 
 //int
-int RandomEnemy;
-int RandomOccur;
+Random rand= new Random();
+int RandomEnemy = rand.Next(1,101);
+
+//20% chance of each enemy to appear
+//adjust for each
+
+if (chance <= 20)
+{
+    RandomEnemy = Enemies class SwoopBat
+}
 public class BattleSystem
 {
 public string[] Enemy = {"Swoop Bat", "Faned Beast", "Soft Troll", "Sour Mage", "Damped Dragon"};
