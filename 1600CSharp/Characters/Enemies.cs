@@ -6,8 +6,6 @@ Random Enemy = new Random ();
 
 
 
-
-
 public class Warrior
 {
 Classes SwoopBat = new Classes(30, 5, 90);
