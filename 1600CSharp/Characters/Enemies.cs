@@ -1,5 +1,4 @@
 using System;
-
 public class Enemies
 
 public string[] Enemy = {"Swoop Bat", "Faned Beast", "Soft Troll", "Sour Mage", "Damped Dragon"};
