@@ -1,20 +1,16 @@
 using System;
 
-int Warrior
-int Mage
-int Lancer
+public class Classes
+ int [] Classes = new int [3];
 
-public class Classes;
+void Start ()
+{
+    Classes.Warrior.Health[0]= (50);
+    Classes.Mage.Health[1]= (35);
+    Classes.Lancer.Health[2]= (20);
+}
 
 //Character attack menue
 
-Attack menue{"Attack", "Defend", "Special", "Run"}
 
-class Warrior
-{
-Classes swoopBat = new Classes(30, 5, 90);
-FanedBeast{Attack = 90%, Defence = 7, Special = 100% }
-SoftTroll{Attack = 90%, Defence = 10, Special = 100% }
-SourMage{Attack = 100%, Defence = 15, Special = 100% }
-DampedDragon{Attack = 40%, Defence = 15, Special = 60% }
-}
+//Attack menue{"Attack", "Defend", "Special", "Run"}

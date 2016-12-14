@@ -11,9 +11,8 @@ if (Random)
 }
 
 
-Attack menue{"Attack", "Defend", "Special", "Run"}
 
-class Warrior
+public class Warrior
 {
 Classes SwoopBat = new Classes(30, 5, 90);
 Classes FanedBeast = new Classes(90, 7, 100);

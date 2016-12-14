@@ -53,8 +53,10 @@ if (class == "Lancer")
 switch(i)
         {
             case 0:
-                //pick a direction to walk in
-                
+                    Console.WriteLine("Which direction do you wish to travel?")
+                    Console.WriteLine("Left, Right, Forward?")
+                    Console.ReadLine();
+random
             break;
 
             case 1:
@@ -63,11 +65,12 @@ switch(i)
                 {
                     //Enter BattleScene
                     Console.Clear();
-                    Console.WriteLine("A battle has begun, what would you like to do?")
-                    Console.WriteLine("Attack")
-                    Console.WriteLine("Defend")
-                    Console.WriteLine("Special")
-                    Console.WriteLine("Run")
+                    Console.WriteLine("A battle has begun, what would you like to do?");
+                    Console.WriteLine("Attack");
+                    Console.WriteLine("Defend");
+                    Console.WriteLine("Special");
+                    Console.WriteLine("Run");
+                    Console.ReadLine();
                 }
                 if (RandomOccur =>)
                 {
@@ -81,6 +84,6 @@ switch(i)
 
 
             default:
-                Console.WriteLine("Your path is clear");
+
             break;
         }
