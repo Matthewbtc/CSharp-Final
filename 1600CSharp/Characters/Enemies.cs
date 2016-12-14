@@ -5,7 +5,8 @@ public string[] Enemy = {"Swoop Bat", "Faned Beast", "Soft Troll", "Sour Mage", 
 Random Enemy = new Random ();
 
 
-
+//characters effect the class chance of attacking, enemy attack, and class special attack 
+//enemies health default to 1 (chance)
 public class Warrior
 {
 Classes SwoopBat = new Classes(30, 5, 90);
