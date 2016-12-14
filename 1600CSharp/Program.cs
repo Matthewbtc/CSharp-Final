@@ -81,16 +81,15 @@ switch(i)
                         while(enemyHealth > 0)
                     }
                 }
-                if (RandomOccur =>)
+                if (class.Health = 0)
                 {
-                    
+                
                 }
                 else
                 {
-                    
+                    //restore all health
                 }  
             break;
-
 
             default:
 
