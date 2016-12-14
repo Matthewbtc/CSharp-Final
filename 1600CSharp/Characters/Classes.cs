@@ -10,7 +10,13 @@ void Start ()
     Classes.Lancer.Health[2]= (20);
 }
 
-//Character attack menue
+//Character health decrement
+int Classes.Warrior.Health = 50;
+
+void Start ()
+{
+    for(int i = 0; i < Classes.Warrior.Health; i--)
+}
 
 
 //Attack menue{"Attack", "Defend", "Special", "Run"}
