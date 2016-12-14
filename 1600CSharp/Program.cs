@@ -56,7 +56,8 @@ switch(i)
                     Console.WriteLine("Which direction do you wish to travel?")
                     Console.WriteLine("Left, Right, Forward?")
                     Console.ReadLine();
-random
+//random number chooses what case to ready
+                    randomPercent= new random 
             break;
 
             case 1:
@@ -71,6 +72,14 @@ random
                     Console.WriteLine("Special");
                     Console.WriteLine("Run");
                     Console.ReadLine();
+
+                    int enemyHealth = 1;
+                    void start ()
+                    
+                    {
+                        //repeat BattleScene untill Enemies health 0
+                        while(enemyHealth > 0)
+                    }
                 }
                 if (RandomOccur =>)
                 {

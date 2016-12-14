@@ -9,6 +9,3 @@ do
     Console.WriteLine("An " + enemy + " has apeared...")
  //Display CharacterClass stats: Health left
     Console.WriteLine(display CharacterClass)
-
-    
-} while ();

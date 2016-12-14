@@ -5,10 +5,6 @@ public string[] Enemy = {"Swoop Bat", "Faned Beast", "Soft Troll", "Sour Mage", 
 Random Enemy = new Random ();
 
 
-if (Random)
-{
-    Enemy = {"Swoop Bat", "Faned Beast", "Soft Troll", "Sour Mage", "Damped Dragon"};
-}
 
 
 
