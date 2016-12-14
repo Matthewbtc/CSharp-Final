@@ -5,7 +5,8 @@ public string[] Enemy = {"Swoop Bat", "Faned Beast", "Soft Troll", "Sour Mage", 
 Random Enemy = new Random ();
 
 
-//characters effect the class chance of attacking, enemy attack, and class special attack 
+//Enemies have health in turns of hits. One hit = 1 health
+//damage percentile is the rate wich a CharacterClass can hit an Enemy  
 //enemies health default to 1 (chance)
 
 class SwoopBat
@@ -18,24 +19,26 @@ class SwoopBat
 class FanedBeast
 {
     health== 1
-    attack== 5
-    damage percentile== Random (90)
+    attack== 7
+    damage percentile== Random (80)
 }
 class SoftTroll
 {
-    health== 30
-    attack== 5
+    health== 2
+    attack== 4
+    //unless Mage 6
     damage percentile== Random (90)
 }
 class SourMage
 {
-    health== 30
-    attack== 5
-    damage percentile== Random (90)
+    health== 1
+    attack== 12
+    //unless Warrior 15
+    damage percentile== Random (75)
 }
 class DampedDragon
 {
-    health== 30
-    attack== 5
-    damage percentile== Random (90)
+    health== 3
+    attack== 10
+    damage percentile== Random (50)
 }
