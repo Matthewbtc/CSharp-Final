@@ -72,7 +72,6 @@ switch(i)
                     Console.WriteLine("Special");
                     Console.WriteLine("Run");
                     Console.ReadLine();
-
                     int enemyHealth = 1;
                     void start ()
                     
