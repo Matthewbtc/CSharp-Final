@@ -81,13 +81,14 @@ switch(i)
                         while(enemyHealth > 0)
                     }
                 }
-                if (class.Health = 0)
+                if (class.Health == 0)
+                    //game over?
                 {
                 
                 }
                 else
                 {
-                    //restore all health
+                    (class.Health == 50)
                 }  
             break;
 
